@@ -50,6 +50,10 @@ cc_library_shared {
         "libexif/pentax/mnote-pentax-tag.c",
     ],
 
+    shared_libs: [
+        "liblog",
+    ],
+
     export_include_dirs: ["."],
 
     cflags: [
